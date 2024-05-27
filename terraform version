@@ -1,0 +1,6 @@
+user@host:~$ terraform version
+Terraform v1.8.4-dev
+on linux_amd64
+
+Your version of Terraform is out of date! The latest version
+is 1.8.4. You can update by downloading from https://www.terraform.io/downloads.html
