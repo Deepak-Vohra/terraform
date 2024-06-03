@@ -1,0 +1,168 @@
+deepakvohra@localhost:~/terraform-provider-example$ curl -H "Authorization: Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImU2ODAyNTc5NTVlOWFmYTUzZmRlY2U5YWNmYTMzMDYzZjEzYTYxZmI2OWRmMTg3YTI0NDdkYjFjOGQyMmRjMzAiLCJ0eXAiOiJKV1QifQ.eyJhY2Nlc3NfaWQiOiJMT01MTlZRNVZPN1JFU0xERUkyMzZEVUJZTFFTUlpJVFJPNDdCRjNVVTJXMzIiLCJhY3QiOnt9LCJjaWQiOiJwbGF0Zm9ybS1hcGktdXNlciIsImV4cCI6MTcxNjY3OTg4OSwiZ3JhbnQiOiJhcGlfdG9rZW4iLCJpYXQiOjE3MTY2Nzg5ODksImlzcyI6Imh0dHBzOi8vYXV0aC5hcGkucGxhdGZvcm0uc2giLCJqdGkiOiIwMUhZUzBONUpNMFlTRUZZR01ZWlRSMjhEWCIsIm5iZiI6MTcxNjY3ODk4OSwibnMiOiJwbGF0Zm9ybXNoIiwic3ViIjoiNzZjNjBlNDMtMDkzOC00NjI5LWFlMDAtY2IwYTU5YTQ0YzIwIn0.Z-zb0sAJJa0EH_gUpg3KaPPlsS4EXKR8HG6VaEdPjHj2hoa5f28p0Y5JJPxrx56mIZQkTCRPQHb_zk1PcYw_9A" \
+>     https://api.platform.sh/projects/zis3mqzwuqnu4/environments
+[
+  {
+    "id": "main",
+    "_links": {
+      "self": {
+        "href": "https://ca-1.platform.sh/api/projects/zis3mqzwuqnu4/environments/main"
+      },
+      "#edit": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main"
+      },
+      "#access": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/access"
+      },
+      "#activities": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/activities"
+      },
+      "#backups": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/backups"
+      },
+      "#deployments": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/deployments"
+      },
+      "#routes": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/routes"
+      },
+      "#settings": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/settings"
+      },
+      "#source-operations": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/source-operations"
+      },
+      "#variables": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/variables"
+      },
+      "#versions": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/versions"
+      },
+      "#backup": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/backup"
+      },
+      "#branch": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/branch"
+      },
+      "#deactivate": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/deactivate"
+      },
+      "#pause": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/pause"
+      },
+      "#redeploy": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/redeploy"
+      },
+      "#source-operation": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/source-operation"
+      },
+      "curies": [
+        {
+          "name": "pf",
+          "href": "https://api.platform.sh/docs/rels/{rel}",
+          "templated": true
+        }
+      ],
+      "#ui": {
+        "href": "https://console.platform.sh/01HYPMRNB9FNZ24TWV2MR5ADQG/zis3mqzwuqnu4/main"
+      },
+      "public-url": {
+        "href": "https://main-bvxea6i-zis3mqzwuqnu4.ca-1.platformsh.site/"
+      },
+      "pf:routes": [
+        {
+          "href": "https://main-bvxea6i-zis3mqzwuqnu4.ca-1.platformsh.site/"
+        },
+        {
+          "href": "https://www.main-bvxea6i-zis3mqzwuqnu4.ca-1.platformsh.site/"
+        },
+        {
+          "href": "http://main-bvxea6i-zis3mqzwuqnu4.ca-1.platformsh.site/"
+        },
+        {
+          "href": "http://www.main-bvxea6i-zis3mqzwuqnu4.ca-1.platformsh.site/"
+        }
+      ],
+      "pf:ssh:app": {
+        "href": "ssh://zis3mqzwuqnu4-main-bvxea6i--app@ssh.ca-1.platform.sh"
+      },
+      "ssh": {
+        "href": "ssh://zis3mqzwuqnu4-main-bvxea6i@ssh.ca-1.platform.sh"
+      },
+      "#manage-routes": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/routes"
+      },
+      "#manage-access": {
+        "href": "/api/projects/zis3mqzwuqnu4/environment-types/production/access"
+      },
+      "#manage-variables": {
+        "href": "/api/projects/zis3mqzwuqnu4/environments/main/variables"
+      },
+      "#metrics": [
+        {
+          "href": "https://metrics-zis3mqzwuqnu4.ca-1.platformsh.site",
+          "collection": "vendor=platformsh/region=ca-1.platform.sh/project=zis3mqzwuqnu4/environment=main",
+          "max_range": "8h"
+        }
+      ]
+    },
+    "_embedded": {
+      "deployments": [
+        {
+          "id": "local",
+          "type": "local",
+          "name": "local",
+          "hosts": null,
+          "use_dedicated_grid": false,
+          "storage_type": null
+        }
+      ]
+    },
+    "created_at": "2024-05-25T01:17:51.569331+00:00",
+    "updated_at": "2024-05-25T22:27:10.448499+00:00",
+    "name": "main",
+    "machine_name": "main-bvxea6i",
+    "title": "Main",
+    "attributes": {},
+    "type": "production",
+    "parent": null,
+    "default_domain": null,
+    "has_domains": false,
+    "clone_parent_on_create": true,
+    "deployment_target": "local",
+    "is_pr": false,
+    "status": "active",
+    "http_access": {
+      "is_enabled": true,
+      "addresses": [],
+      "basic_auth": {}
+    },
+    "enable_smtp": true,
+    "restrict_robots": true,
+    "edge_hostname": "main-bvxea6i-zis3mqzwuqnu4.ca-1.platformsh.site",
+    "deployment_state": {
+      "last_deployment_successful": true,
+      "last_deployment_at": "2024-05-25T22:27:10.448119+00:00",
+      "crons": {
+        "enabled": true,
+        "status": "running"
+      }
+    },
+    "resources_overrides": {},
+    "last_active_at": "2024-05-25T22:26:38.326050+00:00",
+    "last_backup_at": null,
+    "project": "zis3mqzwuqnu4",
+    "is_main": true,
+    "is_dirty": false,
+    "has_code": true,
+    "head_commit": "2b6b24e262dddf5ffb32ec73081d9c63e839e06e",
+    "merge_info": {
+      "commits_ahead": 0,
+      "commits_behind": 0,
+      "parent_ref": null
+    },
+    "has_deployment": true
+  }
+]
+
+
+
