@@ -1,0 +1,28 @@
+deepakvohra@localhost:~/terraform-provider-example/terraform$ terraform destroy
+example_server.my-server-name: Refreshing state... [id=new environment id]
+
+Terraform used the selected providers to generate the following execution plan.
+Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # example_server.my-server-name will be destroyed
+  - resource "example_server" "my-server-name" {
+      - environment_id = "backup_of_main" -> null
+      - id             = "new environment id" -> null
+      - name           = "updated env" -> null
+    }
+
+Plan: 0 to add, 0 to change, 1 to destroy.
+
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+example_server.my-server-name: Destroying... [id=new environment id]
+example_server.my-server-name: Destruction complete after 0s
+
+Destroy complete! Resources: 1 destroyed.
