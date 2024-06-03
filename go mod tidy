@@ -1,0 +1,5 @@
+$ go mod tidy
+go: finding module for package github.com/go-resty/resty/v2
+go: downloading github.com/go-resty/resty/v2 v2.13.1
+go: downloading github.com/go-resty/resty v1.12.0
+go: found github.com/go-resty/resty/v2 in github.com/go-resty/resty/v2 v2.13.1
