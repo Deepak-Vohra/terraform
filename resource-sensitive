@@ -1,0 +1,4 @@
+resource "example_server" "example_server_1" {
+  name    = var.access_token.name
+  address = var.access_token.api
+}
