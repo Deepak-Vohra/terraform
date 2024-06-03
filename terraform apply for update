@@ -1,0 +1,28 @@
+deepakvohra@localhost:~/terraform-provider-example/terraform$ terraform apply
+example_server.my-server-name: Refreshing state... [id=new environment id]
+
+Terraform used the selected providers to generate the following execution plan.
+Resource actions are indicated with the following symbols:
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # example_server.my-server-name will be updated in-place
+  ~ resource "example_server" "my-server-name" {
+        id             = "new environment id"
+      ~ name           = "a platform env" -> "updated env"
+        # (1 unchanged attribute hidden)
+    }
+
+Plan: 0 to add, 1 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+example_server.my-server-name: Modifying... [id=new environment id]
+example_server.my-server-name: Modifications complete after 0s [id=new environment id]
+
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
