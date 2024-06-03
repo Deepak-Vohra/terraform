@@ -1,0 +1,9 @@
+variable "access_token" {
+  type = object({
+  name    = string
+  api = string
+  })
+  sensitive   = true
+  description = "The access token to access Platform.sh API"
+}
+
