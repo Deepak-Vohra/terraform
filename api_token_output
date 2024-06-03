@@ -1,0 +1,5 @@
+deepakvohra@localhost:~$ curl -u platform-api-user: \
+>     -d 'grant_type=api_token&api_token=r4rUhhnNh4YhDHr1s4ECFSfq6-N8pDajuRz4cWfhZJQ' \
+>     https://auth.api.platform.sh/oauth2/token
+
+{"access_token":"eyJhbGciOiJFUzI1NiIsImtpZCI6ImU2ODAyNTc5NTVlOWFmYTUzZmRlY2U5YWNmYTMzMDYzZjEzYTYxZmI2OWRmMTg3YTI0NDdkYjFjOGQyMmRjMzAiLCJ0eXAiOiJKV1QifQ.eyJhY3QiOnt9LCJjaWQiOiJwbGF0Zm9ybS1hcGktdXNlciIsImV4cCI6MTcxNjU5OTkwMiwiZ3JhbnQiOiJhcGlfdG9rZW4iLCJpYXQiOjE3MTY1OTkwMDIsImlzcyI6Imh0dHBzOi8vYXV0aC5hcGkucGxhdGZvcm0uc2giLCJqdGkiOiIwMUhZUE1DNTQ4N0VBQ1pOQTI5TloxTkhCWCIsIm5iZiI6MTcxNjU5OTAwMiwibnMiOiJwbGF0Zm9ybXNoIiwic3ViIjoiNzZjNjBlNDMtMDkzOC00NjI5LWFlMDAtY2IwYTU5YTQ0YzIwIn0.ee90qXoeKNrho87qOv3viXJyIKW_xia2WjDuIElhQTuWiZV1U1EYqFZoU67WR8H8P5lyQRKADgXci80W_PSzNg","expires_in":899,"scope":"","token_type":"bearer"} 
