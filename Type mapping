@@ -1,0 +1,7 @@
+TypeBool - bool
+TypeInt - int
+TypeFloat - float64
+TypeString - string
+TypeList - []interface{}
+TypeMap - map[string]interface{}
+TypeSet - *schema.Set
