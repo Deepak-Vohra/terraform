@@ -1,0 +1,2 @@
+$ mkdir ~/terraform-provider-example
+$ cd ~/terraform-provider-example
