@@ -1,0 +1,2 @@
+:~/terraform-provider-example$ go mod init example.com/terraform-provider-example
+  go: creating new go.mod: module example.com/terraform-provider-example
