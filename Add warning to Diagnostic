@@ -1,0 +1,7 @@
+    if someCondition {
+        diags = append(diags, diag.Diagnostic{
+            Severity: diag.Warning,
+            Summary: "Warning level message",
+            Detail: "Warning detail",
+        })
+    }
