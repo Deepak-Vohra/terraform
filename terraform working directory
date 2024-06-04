@@ -1,0 +1,3 @@
+deepakvohra@localhost:~/terraform-provider-example/terraform$ ls -l
+-rw-rw-r-- 1 deepakvohra deepakvohra  83 May 25 23:01 main.tf
+-rw-rw-r-- 1 deepakvohra deepakvohra 186 May 25 23:19 versions.tf
