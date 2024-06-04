@@ -1,0 +1,2 @@
+ :~/terraform-provider-example$ ls -l
+-rw-rw-r-- 1 deepakvohra deepakvohra 57 May 25 22:49 go.mod
