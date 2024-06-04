@@ -1,0 +1,2 @@
+deepakvohra@localhost:~/terraform-provider-example/terraform$ terraform validate
+Success! The configuration is valid.
